@@ -1,0 +1,111 @@
+
+.social-media-group {
+  float: right;
+  width: 10em;
+  height: 4em;
+  background-color: red;
+}
+
+.logo-group {
+  width: 20em;
+  height: 8em;
+  background-color: blue;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.logo-img {
+  width: 8em;
+  height: 8em;
+  background-color: black;
+  border-radius: 100%;
+  float: left;
+  margin-right: 0.5em;
+}
+
+.logo-name {
+  margin: 2em 0;
+}
+
+.logo-name h1{
+  font-size: 3em;
+  text-align: left;
+}
+
+.logo-name p{
+  font-size: 1em;
+  text-align: left;
+}
+
+.menu {
+  width: 8em;
+  height: 4em;
+  border: 0.1em solid #ddd;
+  border-radius: 0.4em;
+  float: right;
+  margin-bottom: 0.5em;
+
+}
+
+.menu-group {
+  padding: 1em 0 0 1em;
+}
+
+.hamburger {
+  display: inline-block;
+}
+
+.menu-text {
+  display: inline-block;
+  font-size: 1.5em;
+  vertical-align: top;
+  padding-top: 0.2em;
+  color: #424242;
+}
+
+.grey-bar {
+  border-bottom: 1px solid #ccc;
+  clear: both;
+}
+
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 20px;
+  background: #424242;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -5px; 
+}
+#nav-toggle span:after {
+  bottom: -5px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+}
